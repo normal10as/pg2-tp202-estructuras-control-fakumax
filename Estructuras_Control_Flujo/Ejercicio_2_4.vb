@@ -9,26 +9,22 @@
         Dim pUnitario As Single
         Dim porcentaje As Byte
         Dim descuento As Single
+        Dim subtotal As Single
         Dim resultado As Single
         Console.WriteLine("Ingrese la cantidad")
         Cantidad = Console.ReadLine
         Console.WriteLine("Ingrese el precio unitario")
         pUnitario = Console.ReadLine
+        subtotal = pUnitario * Cantidad
         If Cantidad >= 10 And Cantidad <= 50 Then
             porcentaje = 5
-            descuento = (Cantidad * pUnitario) * 0.05
-            resultado = (Cantidad * pUnitario) - descuento
-        End If
-        If Cantidad >= 51 And Cantidad <= 250 Then
+        ElseIf Cantidad >= 51 And Cantidad <= 250 Then
             porcentaje = 10
-            descuento = (Cantidad * pUnitario) * 0.1
-            resultado = (Cantidad * pUnitario) - descuento
-        End If
-        If Cantidad >= 251 Then
+        ElseIf Cantidad >= 251 Then
             porcentaje = 20
-            descuento = (Cantidad * pUnitario) * 0.2
-            resultado = (Cantidad * pUnitario) - descuento
         End If
+        descuento = (Cantidad * pUnitario) * porcentaje / 100
+        resultado = (Cantidad * pUnitario) - descuento
         Console.WriteLine("Informe de Subtotal  : " & Cantidad * pUnitario)
         Console.WriteLine("-----------------------")
         Console.WriteLine("Porcentaje de Descuento : " & "% " & porcentaje)

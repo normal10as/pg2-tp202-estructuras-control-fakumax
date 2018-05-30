@@ -2,34 +2,32 @@
     '2.6. Resolver el problema 2.4 con CASE.
     Sub main()
         Dim Cantidad As Integer
-        Dim pUnitario As Double
+        Dim pUnitario As Single
         Dim porcentaje As Byte
-        Dim descuento As Double
-        Dim resultado As Double
+        Dim subtotal As Single
+        Dim descuento As Single
         Console.WriteLine("Ingrese la cantidad")
         Cantidad = Console.ReadLine
         Console.WriteLine("Ingrese el precio unitario")
         pUnitario = Console.ReadLine
+        subtotal = Cantidad * pUnitario
         Select Case Cantidad
             Case 10 To 50
                 porcentaje = 5
-                descuento = (Cantidad * pUnitario) * 0.05
-                resultado = (Cantidad * pUnitario) - descuento
             Case 51 To 250
                 porcentaje = 10
-                descuento = (Cantidad * pUnitario) * 0.1
-                resultado = (Cantidad * pUnitario) - descuento
             Case >= 251
                 porcentaje = 20
-                descuento = (Cantidad * pUnitario) * 0.2
-                resultado = (Cantidad * pUnitario) - descuento
+            Case Else
+                porcentaje = 0
         End Select
-        Console.WriteLine("Informe de Subtotal  : " & Cantidad * pUnitario)
+        descuento = subtotal * porcentaje / 100
+        Console.WriteLine("Informe de Subtotal  : " & subtotal)
         Console.WriteLine("-----------------------")
         Console.WriteLine("Porcentaje de Descuento : " & "% " & porcentaje)
         Console.WriteLine("Monto Descontado : " & descuento)
         Console.WriteLine("-----------------------")
-        Console.WriteLine("Total : " & resultado)
+        Console.WriteLine("Total : " & subtotal - descuento)
         Console.ReadKey()
 
     End Sub

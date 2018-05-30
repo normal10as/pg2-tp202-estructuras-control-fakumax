@@ -7,12 +7,66 @@
     Sub main()
         Dim valorMenor As Integer
         Dim valorMayor As Integer
+        Dim acumulador As Integer
+
         Console.WriteLine("Ingrese un valor menor al segundo.")
         valorMenor = Console.ReadLine
         Console.WriteLine("Ingrese un valor menor al primero.")
         valorMayor = Console.ReadLine
-        valorMenor = (valorMayor - valorMenor) / 5
-        Console.WriteLine(valorMenor)
+
+        ' While End While
+        While valorMenor <= valorMayor
+            If valorMenor Mod 5 = 0 Then
+                acumulador += 1
+
+            End If
+            valorMenor += 1
+        End While
+
+        'Do While Loop
+        Do While valorMenor <= valorMayor
+            If valorMenor Mod 5 = 0 Then
+                acumulador += 1
+
+            End If
+            valorMenor += 1
+        Loop
+
+        'Do Until Loop
+        Do Until valorMayor < valorMenor
+            If valorMenor Mod 5 = 0 Then
+                acumulador += 1
+
+            End If
+            valorMenor += 1
+        Loop
+
+        'Don Loop Until
+        Do
+            If valorMenor Mod 5 = 0 Then
+                acumulador += 1
+
+            End If
+            valorMenor += 1
+        Loop Until valorMayor < valorMenor
+
+        'Don Loop While
+        Do
+            If valorMenor Mod 5 = 0 Then
+                acumulador += 1
+
+            End If
+            valorMenor += 1
+        Loop While valorMenor <= valorMayor
+
+        'For
+        For x = valorMenor To valorMayor
+            If x Mod 5 = 0 Then
+                acumulador += 1
+            End If
+        Next
+
+        Console.WriteLine(acumulador)
 
         Console.ReadKey()
     End Sub

@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DE818B98-4BB9-495C-BFD1-A5275A824879}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Estructuras_Control_Flujo.Ejercicio_2_13</StartupObject>
+    <StartupObject>Estructuras_Control_Flujo.Ejercicio_2_14</StartupObject>
     <RootNamespace>Estructuras_Control_Flujo</RootNamespace>
     <AssemblyName>Estructuras_Control_Flujo</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -73,6 +73,8 @@
     <Compile Include="Ejercicio_2_11.vb" />
     <Compile Include="Ejercicio_2_12.vb" />
     <Compile Include="Ejercicio_2_13.vb" />
+    <Compile Include="Ejercicio_2_14.vb" />
+    <Compile Include="Ejercicio_2_15.vb" />
     <Compile Include="Ejercicio_2_2.vb" />
     <Compile Include="Ejercicio_2_3.vb" />
     <Compile Include="Ejercicio_2_4.vb" />

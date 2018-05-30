@@ -8,7 +8,7 @@
     'Cóncavo | si es mayor que 180° pero menor que 360°
     'Error   | Si el valor es menor a 0º o mayor de 360º
     Sub main()
-        Dim angulo As Integer
+        Dim angulo As UShort
         Console.WriteLine("Ingrese un angulo")
         angulo = Console.ReadLine()
         Select Case angulo
