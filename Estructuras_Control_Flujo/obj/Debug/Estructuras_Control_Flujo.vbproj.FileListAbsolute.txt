@@ -9,3 +9,14 @@ C:\Users\Florencia Moreyra\source\repos\Estructuras_Control_Flujo\Estructuras_Co
 C:\Users\Florencia Moreyra\source\repos\Estructuras_Control_Flujo\Estructuras_Control_Flujo\obj\Debug\Estructuras_Control_Flujo.xml
 C:\Users\Florencia Moreyra\source\repos\Estructuras_Control_Flujo\Estructuras_Control_Flujo\obj\Debug\Estructuras_Control_Flujo.pdb
 C:\Users\Florencia Moreyra\source\repos\Estructuras_Control_Flujo\Estructuras_Control_Flujo\obj\Debug\Estructuras_Control_Flujo.vbprojAssemblyReference.cache
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\bin\Debug\Estructuras_Control_Flujo.exe.config
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\bin\Debug\Estructuras_Control_Flujo.exe
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\bin\Debug\Estructuras_Control_Flujo.pdb
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\bin\Debug\Estructuras_Control_Flujo.xml
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\obj\Debug\Estructuras_Control_Flujo.vbprojAssemblyReference.cache
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\obj\Debug\Estructuras_Control_Flujo.Resources.resources
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\obj\Debug\Estructuras_Control_Flujo.vbproj.GenerateResource.cache
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\obj\Debug\Estructuras_Control_Flujo.vbproj.CoreCompileInputs.cache
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\obj\Debug\Estructuras_Control_Flujo.exe
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\obj\Debug\Estructuras_Control_Flujo.xml
+C:\Users\Florencia Moreyra\source\repos\pg2-tp202-estructuras-control-fakumax\Estructuras_Control_Flujo\obj\Debug\Estructuras_Control_Flujo.pdb

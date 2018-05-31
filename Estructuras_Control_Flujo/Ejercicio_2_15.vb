@@ -36,7 +36,7 @@
             interesMensual = capital * ((interesAnual / 12) / 100)
             totalInteres += interesMensual
             total = capital + interesMensual
-            Console.WriteLine("{0}  │  {1} │   {2} │    {3}", x, capital, interesMensual, total)
+            Console.WriteLine("{0,3}│ {1,10} │ {2,8} │ {3,8}", x, capital, interesMensual, total)
             capital += (capital * (interesAnual / 12)) / 100
 
 
